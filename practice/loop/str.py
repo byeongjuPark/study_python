@@ -63,3 +63,13 @@ for x in tmp:
 #chr -> 아스키코드 -> 문자
 tmp = 65
 print(chr(tmp))
+print()
+
+# 문장화 s.title()
+s = '3PeOple UnFOllowed ME'
+print(s.title())
+print(s.lower().title())
+
+# capitalize() 문자열의 첫글자는 대문자로, 나머지는 소문자로 변환한다.
+s = '3People'
+print(s.capitalize())
