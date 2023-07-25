@@ -13,8 +13,7 @@ def digit_sum(x):
             x = temp
     return sum
 
-N = 3
-NUM = "125 15232 97"
+NUM = "125 15232 97 4569 12 64949 9999"
 num = list(map(int, NUM.split()))
 max =0
 for i in num:
